@@ -13,6 +13,9 @@ body {
     position: fixed;
     overflow-y: hidden;
     user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
     cursor: url('image/grab.cur'), auto;
 }
 

@@ -21,11 +21,15 @@ class Nav {
         this.timeId;
         window.addEventListener('mousedown', bind(this.listenerEvent, this));
         window.addEventListener('touchstart', bind(this.listenerEvent, this));
-
+        window.addEventListener('resize', bind(this.listenerEvent, this));
         window.ondragstart = () => false;
     }
 
     listenerEvent(event) {
+        if (event.type == 'resize') {
+          this.start();
+          return;
+        }
         this.eventDown(event);
     }
 
@@ -46,15 +50,15 @@ class Nav {
 
     eventMove(event) {
       if (document.body.querySelector('.show-image') ) return;
-      
+
         let coordY = this.getCoordY(event)
         this.dragObj.movePoint = coordY;
-        
+
         this.dragObj.scrollForAnim = this.dragObj.startPoint - coordY;
         this.dragObj.scroll = Math.round(this.dragObj.startCoordCard + (coordY - this.dragObj.startPoint));
 
         if (this.activeCard == 0 && this.dragObj.startPoint < coordY) {this.dragObj.startCoordCard = this.cards[0];return}
-      
+
         if (this.dragObj.scroll < this.objectForPosition[this.activeCard]) {
             this.dragObj.scroll = this.objectForPosition[this.activeCard];
             this.setScroll(this.dragObj.scroll);
@@ -62,20 +66,20 @@ class Nav {
             this.setActiveCard('up');
             this.dragObj.startCoordCard = this.cards[this.activeCard].getBoundingClientRect().top;
             this.dragObj.startPoint = coordY;
-           
+
             return;
-            
+
         }
 
         if (this.dragObj.scroll > this.getMetricElem().forCard.startCoord) {
-            
+
             this.dragObj.scroll = this.getMetricElem().forCard.startCoord;
             this.setScroll(this.dragObj.scroll);
 
             this.setActiveCard('down');
             this.dragObj.startCoordCard = this.cards[this.activeCard].getBoundingClientRect().top;
             this.dragObj.startPoint = coordY;
-            
+
             return;
         }
 
@@ -91,7 +95,7 @@ class Nav {
         if (this.dragObj.scrollForAnim == 0) {
             this.animation(300, this.getMetricElem().autoScroll(this.dragObj.startCoordCard));
         }
-    
+
         if (this.activeCard == 1 && this.dragObj.startPoint == this.dragObj.movePoint ) return;
 
         if (this.objectForPosition[4] == this.dragObj.scroll && this.dragObj.scrollForAnim > 0) return;
@@ -116,7 +120,7 @@ class Nav {
         if (e.type == 'touchstart' || e.type == 'touchmove') {
             return e.touches[0].pageY
         }
-        
+
     }
 
     controlEventListener(event) {
