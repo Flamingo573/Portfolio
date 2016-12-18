@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Arial Bold';
+    src: url('arial_bold.eot') format('embedded-opentype');
+    src: url('arial_bold.woff') format('woff'), url('arial_bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bariol Regular';
+    src: url('bariol_regular-webfont.eot') format('embedded-opentype');
+    src: url('bariol_regular-webfont.woff') format('woff'), url('bariol_regular-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MyriadPro-Bold';
+    src: url('MyriadPro-Bold.eot') format('embedded-opentype');
+    src: url('MyriadPro-Bold.woff') format('woff'), url('MyriadPro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('MyriadPro-Regular.eot') format('embedded-opentype');
+    src: url('MyriadPro-Regular.woff') format('woff'), url('MyriadPro-Regular.ttf') format('truetype');
+}

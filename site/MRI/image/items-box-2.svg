@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 418.3 330.1">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: #aa212e;
+            }
+            .cls-2 {
+                opacity: 0.2;
+            }
+            .cls-2,
+            .cls-6 {
+                isolation: isolate;
+            }
+            .cls-3 {
+                fill: #fff;
+            }
+            .cls-4,
+            .cls-6 {
+                fill: #b0b0b0;
+            }
+            .cls-12,
+            .cls-13,
+            .cls-5 {
+                fill: none;
+                stroke-miterlimit: 10;
+            }
+            .cls-5 {
+                stroke: #aa212e;
+            }
+            .cls-6 {
+                opacity: 0.5;
+            }
+            .cls-7 {
+                fill: #231f20;
+            }
+            .cls-8 {
+                fill: #de2227;
+            }
+            .cls-9 {
+                fill: #e03a27;
+            }
+            .cls-10 {
+                fill: #eeca19;
+            }
+            .cls-11 {
+                fill: #92ca61;
+            }
+            .cls-12 {
+                stroke: #e03a27;
+            }
+            .cls-13 {
+                stroke: #363636;
+            }
+            #arrow-left {
+              transform-origin: 0% 100%;
+            }
+
+            #arrow-right {
+              transform-origin: 100% 100%;
+            }
+            
+            #box-open, #box-close {
+              transform-origin: 209.3px 280.1px;
+            }
+
+            @keyframes box {
+              100% { transform: scale(.5); }
+            }
+            #box-open { animation-name: box; animation-duration: 100ms; animation-fill-mode: both; }
+            
+            @keyframes wi-fi {
+              0% { transform: translateX(135px); }
+              100% { transform: translateX(171px) translateY(220px) scale(.5); }
+            }
+            #icon-Wi-Fi { animation-name: wi-fi; animation-duration: 1ms; animation-fill-mode: forwards; }
+
+            @keyframes chip {
+              0% { transform: translateX(-135px); }
+              100% { transform: translateX(39px) translateY(220px) scale(.5); }
+            }
+            #chipset { animation-name: chip; animation-duration: 1ms; animation-fill-mode: forwards; }
+
+            @keyframes code {
+              100% { transform: translateX(105px) translateY(240px) scale(.5); }
+            }
+            #icon-code { animation-name: code; animation-duration: 1ms; animation-fill-mode: forwards; }
+
+            @keyframes arrow {
+              100% { transform:  translateY(100px); }
+            }
+            g[id^="arrow"] { animation-name: arrow; animation-duration: 1ms; animation-fill-mode: forwards; }
+
+
+
+            @keyframes box-active {
+              0% {transform: scale(.5);}
+              100% {transform: scale(1);}
+            }
+            .active #box-open {animation-name: box-active; animation-duration: 300ms; animation-fill-mode: both;}
+
+            @keyframes boxClose-active {
+
+            }
+            #box-close {animation-name: boxClose-active; animation-duration: 1000ms; animation-fill-mode: forwards;}
+
+            @keyframes wi-fi-active {
+              0% { transform: translateX(171px) translateY(220px) scale(.5); }
+              50% { transform: translateX(171px) translateY(150px) scale(.5); }
+              100% { transform: translateX(0px) translateY(0px) scale(1); }
+            }
+            .active #icon-Wi-Fi{ animation-name: wi-fi-active; animation-duration: 1s; animation-fill-mode: both;   }
+
+            @keyframes arrow-left {
+              0% { transform:  translateY(100px); }
+              50% { transform:  translateY(50px) rotate(45deg); }
+              100% { transform:  translateY(0px)  rotate(0deg); }
+            }
+            .active #arrow-left { animation-name: arrow-left; animation-duration: 1s; animation-delay: 800ms; animation-fill-mode: both;  }
+
+            @keyframes chip-active {
+            0% { transform: translateX(39px) translateY(220px) scale(.5); }
+            50% { transform: translateX(39px) translateY(150px) scale(.5); }
+            100% { transform: translateX(0px) translateY(0px) scale(1); }
+            }
+            .active #chipset { animation-name: chip-active; animation-duration: 1s; animation-delay: 1800ms; animation-fill-mode: both; }
+
+            @keyframes arrow-right{
+              0% { transform:  translateY(100px); }
+              50% { transform:  translateY(50px) rotate(-45deg); }
+              100% { transform:  translateY(0px)  rotate(0deg); }
+            }
+            .active #arrow-right { animation-name: arrow-right; animation-duration: 1s; animation-delay: 2000ms; animation-fill-mode: both; }
+
+            @keyframes code-active {
+              0% { transform: translateX(105px) translateY(240px) scale(.5); }
+              100% { transform: translateX(0) translateY(0) scale(1); }
+            }
+            .active #icon-code { animation-name: code-active; animation-duration: 1s; animation-delay: 3000ms; animation-fill-mode: both; }
+
+            @keyframes arrow-top {
+              0% { transform:  translateY(100px); }
+              100% { transform:  translateY(0px); }
+            }
+            .active #arrow-top { animation-name: arrow-top;  animation-duration: 300ms; animation-delay: 3800ms; animation-fill-mode: both; }
+
+
+
+        </style>
+    </defs>
+    <title>Ресурс 2</title>
+
+    <g id="items-box-2">
+        <g id="icon-Wi-Fi"><circle class="cls-1" cx="76" cy="114.4" r="76"/>
+            <g id="line-3"><path class="cls-1" d="M148.6,168.6Z"/><path class="cls-1" d="M161.7,134.9v0Z"/><path class="cls-1" d="M162.2,130.1h0v0Z"/><path
+                class="cls-1"
+                d="M134,163.6c.4-.5.9-1,1.3-1.6.1-.1.2-.3.3-.4.9-1.1,1.8-2.3,2.6-3.5V158a76.9,76.9,0,0,0,13.1-33.6v-.2c.2-1.4.3-2.9.4-4.3v-.5L126.2,93.9a28,28,0,0,1-6.4-1.3c-4-1.3-7.5-3.7-11.5-5-9.2-3-18.4-5.2-28.2-5a125.81,125.81,0,0,0-28,3.1,83.53,83.53,0,0,0-13.9,4.5c-3,1.4-8,3.7-9.8,6.6a7.55,7.55,0,0,1-1.1,1.4l83.6,83.6a65,65,0,0,0,6.3-3.7l.1-.1a21.41,21.41,0,0,0,1.9-1.3c.1-.1.3-.2.4-.3,1-.7,2-1.5,3-2.2.3-.2.5-.4.8-.6a17.41,17.41,0,0,0,1.4-1.2,7,7,0,0,1,1-.8c.7-.6,1.4-1.3,2.1-1.9.3-.3.7-.6,1-.9l1.2-1.2.9-.9c.7-.8,1.4-1.5,2.1-2.3A3.78,3.78,0,0,0,134,163.6Z"/><path class="cls-2" d="M161.7,134.9v0Z"/><path class="cls-2" d="M162.2,130.1h0v0Z"/><path class="cls-2" d="M148.6,168.6Z"/><path
+                class="cls-2"
+                d="M134,163.6c.4-.5.9-1,1.3-1.6.1-.1.2-.3.3-.4.9-1.1,1.8-2.3,2.6-3.5V158a76.9,76.9,0,0,0,13.1-33.6v-.2c.2-1.4.3-2.9.4-4.3v-.5L126.2,93.9a28,28,0,0,1-6.4-1.3c-4-1.3-7.5-3.7-11.5-5-9.2-3-18.4-5.2-28.2-5a125.81,125.81,0,0,0-28,3.1,83.53,83.53,0,0,0-13.9,4.5c-3,1.4-8,3.7-9.8,6.6a7.55,7.55,0,0,1-1.1,1.4l83.6,83.6a65,65,0,0,0,6.3-3.7l.1-.1a21.41,21.41,0,0,0,1.9-1.3c.1-.1.3-.2.4-.3,1-.7,2-1.5,3-2.2.3-.2.5-.4.8-.6a17.41,17.41,0,0,0,1.4-1.2,7,7,0,0,1,1-.8c.7-.6,1.4-1.3,2.1-1.9.3-.3.7-.6,1-.9l1.2-1.2.9-.9c.7-.8,1.4-1.5,2.1-2.3A3.78,3.78,0,0,0,134,163.6Z"/><path
+                class="cls-3"
+                d="M125.3,92.9c-6-5.2-21.3-16.1-46.5-16.6-20.6-.5-39.8,6-51.3,17a3.59,3.59,0,0,0-.1,5l.2.2a3.29,3.29,0,0,0,4.6-.1C42.3,88.7,60,82.8,78.7,83.3c23,.5,37,10.5,42.1,15a3.37,3.37,0,0,0,4.5-.1,3.5,3.5,0,0,0,.2-5A.77.77,0,0,0,125.3,92.9Z"/></g>
+            <g id="line-2"><path class="cls-1" d="M145.8,144.5l-35-35a121.87,121.87,0,0,1-16.7-4.7,87.06,87.06,0,0,0-12.4-3.3,5.85,5.85,0,0,1-1.9.4,62.77,62.77,0,0,0-21.8,4c-5.2,2-9.7,4.8-14.8,6.8a3.55,3.55,0,0,1-2,1.8l68.1,68.1A74.88,74.88,0,0,0,145.8,144.5Z"/><path class="cls-2" d="M145.8,144.5l-35-35a121.87,121.87,0,0,1-16.7-4.7,87.06,87.06,0,0,0-12.4-3.3,5.85,5.85,0,0,1-1.9.4,62.77,62.77,0,0,0-21.8,4c-5.2,2-9.7,4.8-14.8,6.8a3.55,3.55,0,0,1-2,1.8l68.1,68.1A74.88,74.88,0,0,0,145.8,144.5Z"/><path class="cls-3" d="M110.3,108.9a55.45,55.45,0,0,0-68.9.2A3.49,3.49,0,0,0,41,114a3.55,3.55,0,0,0,4.7.6,48.54,48.54,0,0,1,60.3-.2,3.53,3.53,0,0,0,4.7-.4,3.39,3.39,0,0,0-.3-4.9A.35.35,0,0,0,110.3,108.9Z"/></g>
+            <g id="lime-1"><path
+                class="cls-1"
+                d="M134.5,163,95,123.5h-.3a5.29,5.29,0,0,1-3-.9h-.2a4.38,4.38,0,0,1-3.8-1.8,4.57,4.57,0,0,1-3.8-2,4.84,4.84,0,0,1-2.6.7,4.6,4.6,0,0,1-3.3-1.3,4.3,4.3,0,0,1-3.4,1.3,5.33,5.33,0,0,1-2.4-.6,4.69,4.69,0,0,1-3.5,1.5,4.42,4.42,0,0,1-2.2-.5,4.54,4.54,0,0,1-3.3,1.9,4.42,4.42,0,0,1-4.2,3,4.19,4.19,0,0,1-3.3,3.1L110,182.2A73.17,73.17,0,0,0,134.5,163Z"/><path
+                class="cls-2"
+                d="M134.5,163,95,123.5h-.3a5.29,5.29,0,0,1-3-.9h-.2a4.38,4.38,0,0,1-3.8-1.8,4.57,4.57,0,0,1-3.8-2,4.84,4.84,0,0,1-2.6.7,4.6,4.6,0,0,1-3.3-1.3,4.3,4.3,0,0,1-3.4,1.3,5.33,5.33,0,0,1-2.4-.6,4.69,4.69,0,0,1-3.5,1.5,4.42,4.42,0,0,1-2.2-.5,4.54,4.54,0,0,1-3.3,1.9,4.42,4.42,0,0,1-4.2,3,4.34,4.34,0,0,1-3.3,3.1L110,182.2A74.17,74.17,0,0,0,134.5,163Z"/><path class="cls-3" d="M95.5,124a31.63,31.63,0,0,0-18.8-7.3,31,31,0,0,0-20.6,7.1,3,3,0,1,0,3.5,4.9c.1-.1.2-.1.3-.2a24.65,24.65,0,0,1,31.8.1,3,3,0,0,0,4-.1,3,3,0,0,0,.1-4.2Q95.65,124,95.5,124Z"/></g>
+            <g id="circle"><path class="cls-1" d="M82.4,141.6a4.22,4.22,0,0,1-3.6,1.6,4.64,4.64,0,0,1-3.2,1.7,4.54,4.54,0,0,1-2.7,2,4.81,4.81,0,0,1-1.2,1.6,4.72,4.72,0,0,1-3,3.8l33.5,33.5a77.31,77.31,0,0,0,18.4-9.8L85,140.4A4.2,4.2,0,0,1,82.4,141.6Z"/><path class="cls-2" d="M82.4,141.6a4.22,4.22,0,0,1-3.6,1.6,4.64,4.64,0,0,1-3.2,1.7,4.54,4.54,0,0,1-2.7,2,4.81,4.81,0,0,1-1.2,1.6,4.72,4.72,0,0,1-3,3.8l33.5,33.5a77.31,77.31,0,0,0,18.4-9.8L85,140.4A4.2,4.2,0,0,1,82.4,141.6Z"/><circle class="cls-3" cx="76.4" cy="145.9" r="10"/></g>
+        </g>
+        <g id="arrow-right"><path class="cls-7" d="M263.1,180.5l-7.2,21.9a96.72,96.72,0,0,0-15.4-17.2Z"/><path class="cls-7" d="M232.2,225.8c-.6-2.6-2.9-14,3.7-25.1a33,33,0,0,1,12.6-12l3,6.8a40,40,0,0,0-11.2,9.7A39.21,39.21,0,0,0,232.2,225.8Z"/></g>
+        <g id="arrow-top"><path class="cls-7" d="M209.3,213.6l-4.5-35.3h9Z"/><path class="cls-7" d="M209.3,159.2l11.6,20a98.3,98.3,0,0,0-23,0Z"/></g>
+        <g id="arrow-left" ><path class="cls-7" d="M155.6,180.5l7.2,21.9a96.72,96.72,0,0,1,15.4-17.2Z"/><path class="cls-7" d="M186.4,225.8c.6-2.6,2.9-14-3.7-25.1a33,33,0,0,0-12.6-12l-3,6.8a39.08,39.08,0,0,1,11.3,9.7A38.6,38.6,0,0,1,186.4,225.8Z"/></g>
+        <g id="chipset"><circle class="cls-1" cx="342.3" cy="114.4" r="76"/><rect class="cls-4" x="297.8" y="82" width="16" height="9"/><rect class="cls-5" x="301.8" y="84.4" width="12.5" height="4"/><rect class="cls-6" x="297.8" y="82" width="16" height="9"/><rect class="cls-4" x="297.8" y="100.2" width="16" height="9"/><rect class="cls-5" x="301.8" y="102.6" width="12.5" height="4"/><rect class="cls-6" x="297.8" y="100.2" width="16" height="9"/><rect class="cls-4" x="297.8" y="118.5" width="16" height="9"/><rect class="cls-5" x="301.8" y="120.9" width="12.5" height="4"/><rect class="cls-6" x="297.8" y="118.5" width="16" height="9"/><rect class="cls-4" x="297.8" y="137.9" width="16" height="9"/><rect class="cls-5" x="301.8" y="140.3" width="12.5" height="4"/><rect class="cls-6" x="297.8" y="137.9" width="16" height="9"/><rect class="cls-4" x="370.8" y="82" width="16" height="9"/><rect class="cls-5" x="370.3" y="84.4" width="12.5" height="4"/><rect class="cls-6" x="370.8" y="82" width="16" height="9"/><rect class="cls-4" x="370.8" y="100.2" width="16" height="9"/><rect class="cls-5" x="370.3" y="102.6" width="12.5" height="4"/><rect class="cls-6" x="370.8" y="100.2" width="16" height="9"/><rect class="cls-4" x="370.8" y="118.5" width="16" height="9"/><rect class="cls-5" x="370.3" y="120.9" width="12.5" height="4"/><rect class="cls-6" x="370.8" y="118.5" width="16" height="9"/><rect class="cls-4" x="370.8" y="137.9" width="16" height="9"/><rect class="cls-5" x="370.3" y="140.3" width="12.5" height="4"/><rect class="cls-6" x="370.8" y="137.9" width="16" height="9"/><path class="cls-2" d="M417.7,123.7,371.2,77.2c-.1,0-.1-.1-.2-.2l-.2-.1h0l-56.9,75,37.9,37.9A75.8,75.8,0,0,0,417.7,123.7Z"/><rect id="chip" class="cls-7" x="313.8" y="76.9" width="57" height="75"/></g>
+        <g id="icon-code"><circle class="cls-8" cx="209.4" cy="76" r="76"/><path class="cls-2" d="M285.4,76q0-3.45-.3-6.9L254.4,38.4l-90.1,74.9,38.4,38.4c2.2.2,4.4.3,6.7.3a76,76,0,0,0,76-76Z"/><rect class="cls-3" x="164.4" y="38.5" width="90" height="75"/><rect class="cls-4" x="164.4" y="38.5" width="90" height="20"/><rect x="164.4" y="58.5" width="90" height="1"/><circle class="cls-9" cx="177.3" cy="48.5" r="6"/><circle class="cls-10" cx="195.3" cy="48.5" r="6"/><circle class="cls-11" cx="213.3" cy="48.5" r="6"/><polyline class="cls-12" points="193.8 85.9 181.8 78.4 193.8 70.9"/><polyline class="cls-12" points="205.1 85.9 217.1 78.4 205.1 70.9"/><line class="cls-12" x1="196.9" y1="85.9" x2="203.7" y2="66.9"/></g><rect id="box-close" class="cls-7" x="124.1" y="230.1" width="170" height="100"/>
+        <g id="box-open"><rect class="cls-7" x="124.3" y="230.1" width="170" height="100"/><path class="cls-7" d="M301.4,264.1l-6.9-34.3H124.7l-7.9,34.3Z"/><line class="cls-13" x1="124.3" y1="264.6" x2="294.3" y2="264.6"/><path class="cls-7" d="M108.1,264.8l-2.7-1.4,17.8-33.9a8.2,8.2,0,0,0,3.1.3Z"/><path class="cls-7" d="M311.2,265l-17.9-34.1c-.9-.6-1-.9-1-1a7.22,7.22,0,0,1,2.1-.1,7.72,7.72,0,0,0,1.5-.2h.1l17.9,34Z"/></g>
+
+    </g>
+
+</svg>

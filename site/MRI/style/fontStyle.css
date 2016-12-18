@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'MuseoBold';
+    src: url('../font/MuseoSans/MuseoSansBold/MuseoSansBold.eot') format('embedded-opentype');
+    src: url('../font/MuseoSans/MuseoSansBold/MuseoSansBold.woff') format('woff'), url('../font/MuseoSans/MuseoSansBold/MuseoSansBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MuseoMedium';
+    src: url('../font/MuseoSans/MuseoSansMedium/MuseoSansMedium.eot') format('embedded-opentype');
+    src: url('../font/MuseoSans/MuseoSansMedium/MuseoSansMedium.woff') format('woff'), url('../font/MuseoSans/MuseoSansMedium/MuseoSansMedium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MuseoRegular';
+    src: url('../font/MuseoSans/MuseoSansRegular/MuseoSansRegular.eot') format('embedded-opentype');
+    src: url('../font/MuseoSans/MuseoSansRegular/MuseoSansRegular.woff') format('woff'), url('../font/MuseoSans/MuseoSansRegular/MuseoSansRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MuseoLight';
+    src: url('../font/MuseoSans/MuseoSansLight/MuseoSansLight.eot') format('embedded-opentype');
+    src: url('../font/MuseoSans/MuseoSansLight/MuseoSansLight.woff') format('woff'), url('../font/MuseoSans/MuseoSansLight/MuseoSansLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MuseoBoldItalic';
+    src: url('../font/MuseoSans/MuseoSansBoldItalic/MuseoSansBoldItalic.eot') format('embedded-opentype');
+    src: url('../font/MuseoSans/MuseoSansBoldItalic/MuseoSansBoldItalic.woff') format('woff'), url('../font/MuseoSans/MuseoSansBoldItalic/MuseoSansBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Museo500Italic';
+    src: url('../font/MuseoSans/MuseoSans500italic/Museo Sans Cyrl 500.eot') format('embedded-opentype');
+    src: url('../font/MuseoSans/MuseoSans500italic/Museo Sans Cyrl 500.woff') format('woff'), url('../font/MuseoSans/MuseoSans500italic/Museo Sans Cyrl 500.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    src: url('../font/Aktiv Grotesk/Aktiv Grotesk Regular/Aktiv Grotesk Regular.eot') format('embedded-opentype');
+    src: url('../font/Aktiv Grotesk/Aktiv Grotesk Regular/Aktiv Grotesk Regular.woff') format('woff'), url('../font/Aktiv Grotesk/Aktiv Grotesk RegularAktiv Grotesk Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Museo900';
+    src: url('../font/MuseoSans/MuseoSans900/Museo Sans900.eot') format('embedded-opentype');
+    src: url('../font/MuseoSans/MuseoSans900/Museo Sans900.woff') format('woff'), url('../font/MuseoSans/MuseoSans900/Museo Sans900.ttf') format('truetype');
+}

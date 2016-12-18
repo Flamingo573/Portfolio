@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial';
+    color: #22252b;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #22252b;
+    text-decoration: none;
+    display: block;
+    outline: none;
+}
+
+a.open {
+    color: #999;
+}
+
+.menu {
+    width: 250px;
+    box-shadow: 1px 0 1px 0 rgba(0, 0, 0, 0.16);
+    flex-shrink: 0;
+    position: relative;
+}
+
+.head-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.head-menu img {
+    width: 25px;
+    height: 25px;
+}
+
+.title {
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.nav-wrapper {
+    margin-top: 30px;
+    font-size: 19px;
+}
+
+.menu ul ul {
+    padding-left: 10px;
+}
+
+.nav-wrapper>ul>li {
+    padding: 5px 0;
+    margin: 0 15px;
+    border-bottom: 1px solid #22252b;
+}
+
+.nav-wrapper .folder {
+    position: relative;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.nav-wrapper .folder:before {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 0;
+    height: 0;
+    border-left: 9px solid #22252b;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+.menu .folder li {
+    font-size: 17px;
+    padding: 2px 0;
+}
+
+.menu .folder.open:before {
+    transform: rotate(90deg);
+}
+
+.menu .sub-menu {
+    display: none;
+}
+
+.menu .folder.open .sub-menu {
+    display: block;
+}
+
+.file.active {
+    color: #626b7a;
+}
+
+.gitLink {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+}
+
+.gitLink:hover .cls-1 {
+    fill: #bbb;
+}
+
+.section-code {
+    flex-grow: 1;
+    margin-left: 5px;
+    height: 100vh;
+    overflow-y: scroll;
+    font-family: Arial;
+    position: relative;
+}
+
+@keyframes animHint {
+    from {
+        color: #e5e5e5;
+    }
+    to {
+        color: #f4f4f4;
+    }
+}
+
+.section-code::before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    content: 'Выберите файл';
+    font-size: 72px;
+    font-weight: bold;
+    color: #e5e5e5;
+    animation: animHint 2s linear infinite alternate;
+    white-space: nowrap;
+}
+
+.section-code.hideHint::before {
+    display: none;
+}
+
+.poolFile {
+    display: none;
+}
+
+@media screen and (max-width: 1404px) {
+    .section-code::before {
+        font-size: 62px;
+    }
+}

@@ -1,0 +1,847 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    width: 100%;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'MuseoRegular';
+    color: #fff;
+    display: inline-block;
+}
+
+a.round-link {
+    padding: 20px 75px;
+    border-radius: 35px;
+    font-size: 24px;
+    font-size: 1.5em;
+    font-family: 'MuseoMedium';
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 74px;
+    font-size: 4.625em;
+    font-family: 'MuseoLight';
+    color: #c78383;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'MuseoRegular';
+    font-size: 39px;
+    font-size: 2.4375rem;
+    text-transform: uppercase;
+    color: #414141;
+}
+
+h3 {
+    font-family: 'MuseoBold';
+    font-size: 24px;
+    color: #464646;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 16px;
+    color: #414242;
+    font-family: 'MuseoMedium';
+}
+
+.centering {
+    margin: auto;
+    width: 960px;
+}
+
+
+/*Main-Section*/
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+
+header a {
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 20px
+}
+
+header a:hover {
+    color: #333;
+}
+
+.background-section {
+    background: url('../image/Main-background.png') no-repeat 50% 50%;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-section section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.main-section h2 {
+    font-size: 60px;
+    font-size: 3.75em;
+    color: #fff;
+    font-family: 'MuseoRegular';
+    padding: 7% 0 6% 0;
+    display: block;
+}
+
+.main-section p {
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-family: 'MuseoRegular';
+    color: #fff;
+}
+
+.main-section a.round-link {
+    background: #1a1a1a;
+    margin-top: 5%;
+}
+
+.main-section a.round-link:hover {
+    background: #292929;
+}
+
+
+/*Main-Section-End*/
+
+
+/*inquire-Block*/
+
+.inquire-block {
+    background: #1a1a1a;
+    padding: 70px 0;
+}
+
+.inquire-block .centering {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.inquire-block p {
+    color: #bababa;
+    font-family: 'MuseoMedium';
+    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+.inquire-block a {
+    background: #bf1c22;
+    padding: 10px 70px;
+}
+
+.inquire-block a:hover {
+    background: #a8181d;
+}
+
+
+/*inquire-Block-End*/
+
+
+/*The-Platform*/
+
+.platform-section {
+    padding: 165px 0 75px 0;
+}
+
+.platform-section>h2, .platform-section>p {
+    text-align: center;
+}
+
+.platform-section>h2 span {
+    font-family: 'Museo900';
+}
+
+.platform-section>p {
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-family: 'MuseoBold';
+    color: #5b5b5b;
+}
+
+.large-box-SVG div[class^='box'] {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.large-box-SVG object[class^='items'] {
+    position: absolute;
+    left: -80px;
+    top: 0;
+}
+
+.large-box-SVG div[class^='box']:nth-of-type(2) {
+    justify-content: flex-start;
+}
+
+.large-box-SVG div[class^='box']:nth-of-type(2) object {
+    top: -100px;
+    left: 570px;
+}
+
+.large-box-SVG section, .large-box-SVG object {
+    width: 50%;
+}
+
+.large-box-SVG {
+    position: relative;
+    margin-bottom: 350px;
+}
+
+.large-box-SVG .box-2 {
+    margin: 225px 0;
+}
+
+.large-box-SVG section {
+    padding-left: 70px;
+}
+
+.large-box-SVG .box-2 section {
+    padding-right: 70px;
+    padding-left: 0;
+}
+
+.large-box-SVG .slider {
+    position: absolute;
+    width: 40px;
+    height: 400px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.large-box-SVG .technology p {
+    font-size: 14px;
+    font-family: 'Museo500Italic';
+    padding-top: 55px;
+}
+
+.large-box-SVG .icon-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.large-box-SVG .icon-box img:nth-child(1) {
+    width: 50px;
+    height: 50px;
+}
+
+.large-box-SVG .icon-box img:nth-child(2) {
+    width: 115px;
+    height: 50px;
+}
+
+.large-box-SVG .icon-box img:nth-child(3) {
+    width: 60px;
+    height: 50px;
+}
+
+.large-box-SVG .icon-box img:nth-child(4) {
+    width: 40px;
+    height: 50px;
+}
+
+.large-box-SVG .icon-box img:nth-child(5) {
+    width: 30px;
+    height: 50px;
+}
+
+
+/*The-Platform-End*/
+
+
+/*Your-Product*/
+
+.your-product-background {
+    background-image: linear-gradient(90deg, #e4474e 0%, #6f3235 100%);
+    padding: 200px 0;
+}
+
+.your-product p, .your-product h3 {
+    color: #fff;
+}
+
+.your-product h3 {
+    font-family: 'Museo900';
+    font-size: 39px;
+    order: 1;
+}
+
+.your-product h3 span {
+    font-family: 'MuseoLight';
+    font-size: 39px;
+    font-size: 2.4375rem;
+}
+
+.your-product {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.your-product .product {
+    display: flex;
+    flex-direction: column;
+}
+
+.your-product section h3+p {
+    font-size: 14px;
+    font-family: 'Museo500Italic';
+}
+
+.your-product section p:last-child {
+    width: 50%;
+}
+
+.your-product .box-input {
+    position: relative;
+    margin: 100px 0 25px 0;
+    height: 30px;
+}
+
+.your-product input {
+    position: absolute;
+    border: none;
+    background: none;
+    width: 300px;
+    height: 30px;
+    left: 230px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #fff;
+}
+
+.your-product label {
+    font-family: 'MuseoBold';
+    font-size: 24px;
+}
+
+.your-product label::before {
+    position: absolute;
+    top: 50%;
+    left: 230px;
+    width: 300px;
+    height: 1px;
+    background: #fff;
+    content: '';
+    display: block;
+}
+
+.your-product button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 500px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    background: #bf1c22;
+    text-align: center;
+    line-height: 35px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.box-input input:focus~label::before, .box-input input:valid~label::before {
+    top: 31px;
+    transition: all 200ms;
+}
+
+.box-input input:focus~button, .box-input input:valid~button {
+    top: 31px;
+    transition: all 200ms;
+}
+
+.box-input input:focus {
+    outline: none;
+}
+
+.your-product-background .view-product {
+    width: 300px;
+    height: 310px;
+    border: 3px dashed #bf4f56;
+    border-radius: 30px;
+    display: table;
+    position: absolute;
+    left: 600px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.your-product-background .view-product p {
+    font-size: 24px;
+    font-family: 'MuseoBold';
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/*Your-Product-End*/
+
+
+/*Team*/
+
+.unknown-people {
+    text-align: center;
+    padding: 120px 0;
+}
+
+.unknown-people>h2 {
+    font-size: 34px;
+}
+
+.unknown-people>h2 span {
+    font-family: 'Museo900';
+}
+
+.unknown-people>p {
+    font-family: 'MuseoRegular';
+    margin: 40px 0 90px 0;
+}
+
+.unknown-people section .image-people {
+    width: 180px;
+    height: 180px;
+    border: 30px solid #fff;
+    border-image: url('../image/circle1.svg') 45 45 45 45 fill stretch;
+    border-radius: 50%;
+    background: url('../image/people1.png') no-repeat 50% 50%;
+    background-size: 150%;
+    background-clip: content-box;
+    margin: 0 auto 30px auto;
+}
+
+.unknown-people section:last-child .image-people {
+    border-image: url('../image/circle2.svg') 45 45 45 45 fill stretch;
+    background: url('../image/people2.png') no-repeat 70% 50%;
+    background-size: 150%;
+    background-clip: content-box;
+}
+
+.unknown-people .people {
+    display: flex;
+}
+
+.unknown-people section {
+    padding: 0 30px;
+}
+
+.unknown-people section h3 {
+    margin-bottom: 15px;
+}
+
+.unknown-people section p {
+    font-family: 'MuseoRegular';
+}
+
+.unknown-people section h3+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+/*Team-End*/
+
+
+/*Footer*/
+
+footer {
+    padding: 100px 0 50px 0;
+    background: #1a1a1a;
+}
+
+footer .centering {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h3 {
+    color: #a9a8a8;
+    margin-bottom: 23px;
+    text-transform: uppercase;
+}
+
+footer .connect a:nth-of-type(1) {
+    background: url('../image/facebook-icon.svg') no-repeat 50% 50%;
+    background-size: 100%;
+}
+
+footer .connect a {
+    display: inline-box;
+    width: 30px;
+    height: 30px;
+    padding-left: 15px;
+    background: url('../image/twitter-icon.svg') no-repeat 50% 50%;
+    background-size: 100%;
+}
+
+footer .connect a:nth-of-type(3) {
+    background: url('../image/linkedin-image.svg') no-repeat 50% 50%;
+    background-size: 100%;
+}
+
+footer .newslatter input {
+    width: 85%;
+    height: 40px;
+    background: #323232;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-family: 'Aktiv Grotesk';
+    padding-left: 16px;
+    color: #7e7d7d;
+}
+
+footer .contact p:first-of-type {
+    margin-bottom: 10px;
+}
+
+footer .contact p span {
+    color: #be5458;
+}
+
+footer .copyright {
+    color: #7d7d7c;
+    font-family: 'MuseoMedium';
+    padding-top: 50px;
+    text-align: right;
+}
+
+
+/*Footer-End*/
+
+@media screen and (max-width: 420px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+
+/*Centering*/
+
+@media screen and (max-width: 1060px) {
+    .centering {
+        width: 80%;
+    }
+}
+
+
+/*Main-Section*/
+
+@media screen and (max-width: 1060px) {
+    .inquire-block .centering {
+        flex-direction: column;
+        align-items: center
+    }
+    .inquire-block a {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .main-section section {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-height: 550px) {
+    .background-section {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .main-section section {
+        font-size: 10px;
+    }
+    .main-section p {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .main-section section {
+        font-size: 8px;
+    }
+    .main-section .round-link {
+        font-size: 16px;
+    }
+}
+
+
+/*The-Platform*/
+
+@media screen and (max-width: 1250px) {
+    .large-box-SVG {
+        margin-bottom: 230px;
+    }
+    .large-box-SVG object[class^="items"] {
+        width: 370px;
+    }
+    .large-box-SVG object[class^='items'] {
+        left: 0px;
+    }
+    .large-box-SVG div[class^='box']:nth-of-type(2) object {
+        left: 580px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .large-box-SVG {
+        margin-bottom: 170px;
+    }
+    .large-box-SVG object[class^="items"] {
+        width: 330px;
+    }
+    .large-box-SVG div[class^='box']:nth-of-type(2) object {
+        left: 517px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .large-box-SVG div[class^='box']:nth-of-type(2) object {
+        left: 493px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .large-box-SVG object[class^="items"] {
+        width: 300px;
+    }
+    .large-box-SVG div[class^='box']:nth-of-type(2) object {
+        left: 490px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .large-box-SVG div[class^='box']:nth-of-type(2) object {
+        left: 460px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .large-box-SVG div[class^='box']:nth-of-type(2) object {
+        left: 435px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .large-box-SVG .slider {
+        visibility: hidden;
+    }
+    .large-box-SVG h3 {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .large-box-SVG div[class^='box'] {
+        flex-direction: column;
+        align-items: center;
+    }
+    .large-box-SVG object[class^="items"] {
+        position: static;
+    }
+    .large-box-SVG div[class^='box']:nth-of-type(2) {
+        margin: 100px 0;
+    }
+    .large-box-SVG div[class^='box'] section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .large-box-SVG section, .large-box-SVG object {
+        width: 100%;
+    }
+    .large-box-SVG div[class^='box']:nth-of-type(2) object {
+        order: -1;
+    }
+    .large-box-SVG object[class^="items"] {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .large-box-SVG object[class^="items"] {
+        width: 280px;
+    }
+    .large-box-SVG .icon-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .large-box-SVG .icon-box img {
+        padding: 0 7px;
+    }
+}
+
+
+/*Your-Product*/
+
+@media screen and (max-width: 1060px) {
+    .your-product-background .view-product {
+        left: 550px;
+    }
+    .your-product-background {
+        padding: 70px 0;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .your-product input, .your-product label::before {
+        width: 200px;
+    }
+    .your-product button {
+        left: 400px;
+    }
+    .your-product-background .view-product {
+        left: 470px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .your-product-background .view-product {
+        position: static;
+        transform: none;
+        margin-top: 50px;
+        align-self: center;
+    }
+    .your-product .box-input {
+        margin: 50px 0 50px 0;
+    }
+    .your-product section>h3, .your-product section>p {
+        text-align: center;
+    }
+    .your-product section p:last-child {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .your-product {
+        flex-direction: column;
+    }
+    .your-product button {
+        left: 400px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .your-product input {
+        left: 0;
+        top: 55px;
+        width: 100%;
+    }
+    .your-product label::before, .your-product button {
+        top: 55px;
+    }
+    .your-product label::before {
+        width: 80%;
+        left: 0;
+    }
+    .your-product button {
+        left: 80%;
+    }
+    .box-input input:focus~button, .box-input input:valid~button {
+        top: 70px;
+        transition: all 200ms;
+    }
+    .box-input input:focus~label::before, .box-input input:valid~label::before {
+        top: 70px;
+        transition: all 200ms;
+    }
+    .your-product .view-product {
+        width: 250px;
+        height: 260px;
+    }
+}
+
+
+/*Team*/
+
+@media screen and (max-width: 730px) {
+    .unknown-people .people {
+        flex-direction: column;
+    }
+    .unknown-people .people section:first-child {
+        margin-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .unknown-people>h2 {
+        font-size: 24px;
+    }
+}
+
+
+/*Footer*/
+
+@media screen and (max-width: 670px) {
+    footer div:first-child {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .connect {
+        margin: 30px 0;
+    }
+    footer .newslatter {
+        order: -1;
+    }
+}
+
+
+/*Padding-Blocks*/
+
+@media screen and (max-width: 736px) {
+    .platform-section {
+        padding: 70px 0 75px 0;
+    }
+    .large-box-SVG {
+        margin-bottom: 70px;
+    }
+    .unknown-people {
+        padding: 70px 0;
+    }
+    footer {
+        padding: 70px 0 50px 0;
+    }
+    footer .copyright {
+        padding-top: 30px;
+    }
+}

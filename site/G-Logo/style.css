@@ -1,0 +1,977 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 19px;
+}
+
+body {
+    font-family: 'Myriad Set Pro Medium';
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Myriad Set Pro Bold';
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.button {
+    background: none;
+    border: 2px solid #f5f5f5;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.centering {
+    width: 1080px;
+    margin: auto;
+}
+
+.icon {
+    width: 93px;
+    height: 93px;
+}
+
+
+/*Header*/
+
+header {
+    background: #000;
+    font-family: 'Myriad Set Pro Thin';
+    font-size: 17px;
+    color: #000;
+    padding-top: 50px;
+}
+
+header nav.centering {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #000;
+    width: 100%;
+    padding: 0 7.5%;
+    z-index: 10;
+}
+
+header .section-logo a {
+    color: #000;
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+header .section-logo {
+    background: #efefef;
+    font-family: 'Myriad Set Pro Bold';
+    color: #000;
+    font-size: 23px;
+    padding: 5px 0;
+}
+
+header .section-logo .centering {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .section-logo .circle-logo {
+    width: 45px;
+    height: 45px;
+    background: url('image/Ресурс 2.svg') no-repeat 50% 50%;
+    background-size: 100%;
+    margin-right: 8px;
+}
+
+header .contact-us {
+    display: flex;
+    align-items: center;
+}
+
+header .section-logo .icon-contact {
+    width: 25px;
+    height: 25px;
+    background: url('image/call.svg') no-repeat 50% 50%;
+    background-size: contain;
+    margin-right: 5px;
+}
+
+header .icon-contact:nth-of-type(2) {
+    background: url('image/mail.svg') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+
+/*Header-End*/
+
+
+/*Section-1*/
+
+.background-section-1 {
+    background: url('image/background-section-1.png') no-repeat 50% 50%;
+    background-size: cover;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.background-section-1 p {
+    font-family: 'Myriad Set Pro Thin';
+    font-size: 24px;
+    width: 400px;
+    margin: 40px auto 25px;
+}
+
+
+/*Section-1-End*/
+
+
+/*Section-2*/
+
+.background-section-2 {
+    color: #000;
+    font-size: 27px;
+    font-size: 1.4rem;
+    padding: 160px 0;
+    background: #efefef;
+}
+
+.background-section-2 .about-us {
+    display: flex;
+    justify-content: space-between;
+}
+
+.background-section-2 .about-us div {
+    text-align: center;
+    width: 200px;
+}
+
+
+/*Section-2-End*/
+
+
+/*Section-3*/
+
+.section-3 {
+    display: flex;
+}
+
+.section-3 .background-provider {
+    color: #000;
+    width: 50%;
+    background: #e1e1e1;
+    font-size: 20px;
+    font-size: 1.1rem;
+}
+
+.section-3 .section-provider {
+    width: 540px;
+    text-align: center;
+    margin-left: auto;
+    padding: 110px 0;
+}
+
+.section-3 .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+    margin-right: 55px;
+}
+
+.section-3 .wrapper div {
+    width: 140px;
+    margin: 30px auto 0;
+}
+
+.section-3 .description-provider {
+    background: url('image/background-section-3.png') no-repeat 50% 50%;
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 70px;
+    font-size: 1rem;
+}
+
+.section-3 .description-provider p {
+    width: 480px;
+    padding: 110px 0;
+    font-family: 'Myriad Set Pro Ultralight';
+}
+
+
+/*Section-3-End*/
+
+
+/*Section-4*/
+
+.section-4 {
+    display: flex;
+}
+
+.section-4 .background-client {
+    color: #000;
+    width: 50%;
+    background: #e1e1e1;
+    font-size: 20px;
+    font-size: 1.1rem;
+}
+
+.section-4 .section-client {
+    width: 440px;
+    text-align: center;
+    padding: 110px 0;
+    margin-left: 100px;
+}
+
+.section-4 .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.section-4 .wrapper div {
+    width: 195px;
+    margin: 30px 0;
+}
+
+.section-4 .description-client {
+    background: url('image/background-section-4.png') no-repeat 50% 50%;
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 110px 0 0;
+}
+
+.section-4 .description-client p {
+    width: 410px;
+    font-family: 'Myriad Set Pro Ultralight';
+}
+
+.section-4 .description-client p:not(:first-child) {
+    margin-top: 30px;
+}
+
+
+/*Section-4-End*/
+
+
+/*Section-5*/
+
+.section-5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-5 .background-learn {
+    color: #000;
+    width: 50%;
+    background: #e1e1e1;
+    font-size: 18px;
+    font-size: 1rem;
+}
+
+.section-5 .section-learn {
+    width: 540px;
+    text-align: center;
+    padding: 110px 30px 110px 0;
+    margin-left: auto;
+}
+
+.section-5 .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.section-5 .wrapper-client {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 230px;
+}
+
+.section-5 .wrapper-client h2, .section-5 .wrapper-provider h2, .section-5 .request-learn h2 {
+    font-size: 23px;
+    width: 100%;
+}
+
+.section-5 .wrapper-client div {
+    width: 115px;
+}
+
+.section-5 .wrapper-provider div {
+    width: 220px;
+}
+
+.section-5 .wrapper-provider p span {
+    font-family: 'Myriad Set Pro Thin';
+}
+
+.section-5 .request-learn {
+    margin: 50px 0 0 auto;
+}
+
+.section-5 .request-learn input {
+    width: 160px;
+    background: none;
+    border: 2px solid #000;
+    border-radius: 7px;
+    padding: 10px 30px;
+    text-align: center;
+    font-family: 'Myriad Set Pro Medium';
+    font-size: 17px;
+}
+
+.section-5 .request-learn input::-webkit-input-placeholder {
+    color: #000;
+}
+
+.section-5 .request-learn input::-moz-placeholder {
+    color: #000;
+}
+
+.section-5 .request-learn input:-moz-placeholder {
+    color: #000;
+}
+
+.section-5 .request-learn input:-ms-input-placeholder {
+    color: #000;
+}
+
+.section-5 .description-learn {
+    background: url('image/background-section-5.png') no-repeat 50% 50%;
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 110px 0 70px;
+}
+
+.section-5 .description-learn p {
+    width: 410px;
+    font-family: 'Myriad Set Pro Ultralight';
+}
+
+.section-5 .description-learn p:not(:first-child) {
+    margin-top: 30px;
+}
+
+.section-5 .description-learn p span {
+    display: block;
+    font-family: 'Myriad Set Pro Semibold';
+}
+
+
+/*Section-5-End*/
+
+
+/*Section-6*/
+
+.background-section-6 {
+    text-align: center;
+    padding: 70px 0 100px;
+    background: #d6d6d6;
+}
+
+.background-section-6 .centering {
+    width: 920px;
+}
+
+#js-slider {
+    width: 100%;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#js-slider .js-limiterForWidth {
+    width: 100%;
+    overflow: hidden;
+}
+
+#js-slider .js-carousel {
+    white-space: nowrap;
+}
+
+#js-slider .js-carousel::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+#js-slider .js-carousel>div {
+    float: left;
+    height: 150px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#js-slider div[class^='button'] {
+    position: absolute;
+    left: -12%;
+    top: 50%;
+    width: 40px;
+    height: 50px;
+    background: url('image/arrow-left.svg') no-repeat 50% 50%;
+    cursor: pointer;
+    transform: translateY(-50%)
+}
+
+#js-slider div.button-2 {
+    left: 105%;
+    top: 50%;
+    background: url('image/arrow-right.svg') no-repeat 50% 50%;
+}
+
+#js-slider img {
+    width: 65%;
+}
+
+#js-slider.grab:hover {
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+
+/*Section-6-End*/
+
+
+/*Section-7*/
+
+.background-section-7 {
+    background: url('image/background-section-7.png') no-repeat 50% 50%;
+    background-size: cover;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.background-section-7 h2 {
+    color: #fff;
+}
+
+.background-section-7 p:last-child {
+    margin-top: 30px;
+}
+
+
+/*Section-7-End*/
+
+
+/*Section-8*/
+
+#map {
+    color: #000;
+    font-family: 'Myriad Set Pro Medium';
+    height: 300px;
+}
+
+
+/*Section-8-End*/
+
+
+/*Footer*/
+
+footer {
+    background: #000;
+    font-family: 'Myriad Set Pro Thin';
+    font-size: 18px;
+}
+
+footer .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+footer li:last-child, footer li:first-child {
+    font-family: 'Myriad Set Pro Bold';
+    font-size: 24px;
+}
+
+
+/*Footer-End*/
+
+@media screen and (max-width: 1170px) {
+    .centering {
+        width: 85%;
+    }
+    .section-3 .wrapper {
+        margin-right: 40px;
+    }
+    .section-3 .description-provider {
+        padding-left: 55px;
+    }
+    .section-4 .description-client {
+        padding: 0 85px 0 0;
+    }
+    .section-4 .section-client {
+        margin-left: 80px;
+    }
+    .background-section-6 .centering {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1135px) {
+    html {
+        font-size: 18px;
+    }
+    .section-3 .description-provider p {
+        width: 450px;
+    }
+    .section-3 .wrapper {
+        margin-right: 25px;
+    }
+    .section-3 .description-provider {
+        padding-left: 45px;
+    }
+    .section-5 .section-learn {
+        width: 520px;
+    }
+    .section-5 .wrapper-provider div {
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    h2 {
+        margin-bottom: 30px;
+        font-size: 2.15rem;
+    }
+    .section-3 .description-provider p {
+        width: 90%;
+    }
+    .section-3 .section-provider {
+        width: 90%;
+    }
+    .section-4 .description-client p {
+        width: 90%;
+    }
+    .section-4 .section-client {
+        width: 80%;
+        margin-left: 70px;
+    }
+    .section-4 .description-client {
+        padding: 0 55px 0 0;
+    }
+    .section-5 .section-learn {
+        width: 94%;
+    }
+    .section-5 .description-learn {
+        padding-right: 0
+    }
+    .section-5 .description-learn p {
+        width: 90%;
+    }
+    .section-5 .request-learn input:first-of-type {
+        margin-right: 20px;
+    }
+    .section-5 .request-learn input:last-child {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    html {
+        font-size: 18px;
+    }
+    .section-4 .section-client {
+        margin-left: 50px;
+        width: 87%;
+    }
+    .section-4 .description-client {
+        padding: 0 55px 0 0;
+    }
+    .section-5 .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-5 .wrapper-client {
+        margin-bottom: 25px;
+    }
+    footer .menu a {
+        font-size: 16px;
+    }
+    footer li:last-child, footer li:first-child {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .background-section-2 {
+        padding: 80px 0;
+    }
+    .section-3, .section-4, .section-5 {
+        flex-direction: column;
+    }
+    .section-3 .background-provider, .section-4 .background-client {
+        width: 100%;
+        margin: 0;
+    }
+    .section-3 .description-provider {
+        width: 100%;
+    }
+    .section-3 .description-provider p {
+        padding: 60px 0;
+    }
+    .section-3 .section-provider {
+        width: 100%;
+        padding: 60px 0;
+    }
+    .section-3 .wrapper {
+        margin: auto;
+        width: 68%;
+    }
+    .section-4 .background-client {
+        order: -1;
+    }
+    .section-4 .description-client {
+        width: 100%;
+        padding: 60px 0;
+    }
+    .section-4 .description-client p {
+        width: 87%;
+        margin: auto;
+    }
+    .section-4 .section-client {
+        padding: 60px 0;
+        width: 64%;
+        margin: auto;
+    }
+    .section-4 .wrapper div {
+        margin: 20px 0;
+    }
+    .section-5 .background-learn {
+        width: 100%;
+    }
+    .section-5 .wrapper {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .section-5 .section-learn {
+        width: 70%;
+        margin: auto;
+        padding: 60px 0;
+    }
+    .section-5 .request-learn {
+        width: 87%;
+        margin: 30px auto 0;
+    }
+    .section-5 .request-learn h2 {
+        margin-bottom: 25px;
+    }
+    .section-5 .description-learn {
+        width: 100%;
+        padding: 60px 0;
+    }
+    .section-5 .request-learn input:first-of-type {
+        margin: 0;
+    }
+    .section-5 .request-learn input:last-child {
+        margin: 0;
+    }
+    .section-5 .description-learn p {
+        width: 87%;
+        margin: auto;
+    }
+    .background-section-6 {
+        padding: 60px 0;
+    }
+    #js-slider div[class^='button'] {
+        left: -14%;
+    }
+    #js-slider div.button-2 {
+        left: 108%;
+    }
+}
+
+@media screen and (max-width: 805px) {
+    .background-section-2 {
+        padding: 80px 0 45px;
+    }
+    .background-section-2 .about-us {
+        flex-wrap: wrap;
+        width: 70%;
+    }
+    .background-section-2 .about-us div {
+        margin-bottom: 35px;
+    }
+    .section-5 .section-learn {
+        width: 87%;
+        margin: auto;
+        padding: 60px 0;
+    }
+    .background-section-6 .centering {
+        padding: 0;
+    }
+    footer .menu {
+        flex-wrap: wrap;
+    }
+    footer li:last-child, footer li:first-child {
+        width: 50%;
+        order: -2;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    footer li:last-child {
+        order: -1;
+        text-align: right;
+    }
+    #js-slider div.button-2 {
+        left: 107%;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .section-5 .request-learn input:last-child {
+        margin-top: 20px;
+    }
+    #js-slider div[class^='button'] {
+        left: -15%;
+    }
+    #js-slider div.button-2 {
+        left: 106%;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .background-section-2 {
+        font-size: 1.2rem;
+    }
+    .background-section-2 .about-us {
+        width: 87%;
+    }
+    .section-3 .wrapper {
+        width: 87%;
+    }
+    .section-4 .section-client {
+        width: 87%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    .background-section-1 p {
+        font-size: 1rem
+    }
+    .section-5 .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .background-section-6 img {
+        width: 70px;
+    }
+    .background-section-6 img:nth-child(2) {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 0;
+    }
+    header nav.centering {
+        display: flex;
+        position: static;
+        flex-wrap: wrap;
+    }
+    header nav .contact-us {
+        height: 50px;
+        width: 50%;
+    }
+    header .menu {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+    header.active .menu {
+        display: flex;
+    }
+    header nav .icon-contact {
+        width: 40px;
+        height: 40px;
+        background: url('image/call-white.svg') no-repeat 50% 50%;
+    }
+    header nav .icon-contact:nth-of-type(2) {
+        background: url('image/mail-white.svg') no-repeat 50% 50%;
+        margin-left: 5px;
+    }
+    header .menu li {
+        border-bottom: 1px solid #efefef;
+        font-size: 24px;
+    }
+    header .menu a {
+        padding: 5px 0;
+        display: block;
+    }
+    header .section-logo .icon-contact {
+        display: none;
+    }
+    header .wrapper-nav {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        margin-left: auto;
+    }
+    header .nav-menu, .nav-menu::before, .nav-menu::after {
+        width: 30px;
+        height: 3px;
+        background: #fff;
+        border-radius: 5px;
+        transition: all 500ms;
+    }
+    header .nav-menu::before, .nav-menu::after {
+        display: block;
+        content: '';
+        position: absolute;
+        transform-origin: 50% 50%;
+    }
+    header .nav-menu {
+        position: relative;
+        top: 50%;
+    }
+    header .nav-menu::before {
+        top: 9px;
+    }
+    header .nav-menu::after {
+        top: -9px;
+    }
+    .background-section-1 p {
+        width: auto;
+    }
+    .js-nav.active {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: #000;
+        width: 100%;
+        padding: 0 7.5%;
+        z-index: 10;
+    }
+    header .js-nav.active+.section-logo {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    h1 {
+        font-size: 1.5rem
+    }
+    header .section-logo .contact-us {
+        display: none;
+    }
+    header .section-logo .centering {
+        justify-content: center;
+    }
+    .background-section-1 {
+        padding: 80px 0;
+    }
+    .background-section-2 {
+        font-size: 1.1rem
+    }
+    .background-section-2 .about-us {
+        width: 70%;
+    }
+    .background-section-2 .about-us div {
+        width: 120px;
+    }
+    .section-4 .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    #js-slider div[class^='button'] {
+        left: -17%;
+    }
+    #js-slider div.button-2 {
+        left: 104%;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .section-5 .request-learn input:last-child {
+        margin-top: 0;
+    }
+    .section-5 .request-learn input:nth-child(3) {
+        margin: 20px 0;
+    }
+    .background-section-6 .centering {
+        width: 55%;
+    }
+    #js-slider div[class^='button'] {
+        left: -32%;
+    }
+    #js-slider div.button-2 {
+        left: 114%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    h1 {
+        font-size: 1.3rem
+    }
+    .background-section-2 {
+        padding: 60px 0;
+    }
+    .background-section-2 .about-us {
+        width: 87%;
+    }
+    .background-section-2 .about-us div:nth-child(3), .background-section-2 .about-us div:nth-child(4), .section-4 .wrapper div:last-child {
+        margin-bottom: 0;
+    }
+    .section-3 .section-provider, .section-3 .description-provider p, .section-4 .section-client, .section-4 .description-client, .section-5 .section-learn, .section-5 .description-learn, .background-section-6 {
+        padding: 50px 0;
+    }
+    #js-slider div[class^='button'] {
+        left: -32%;
+    }
+    #js-slider div.button-2 {
+        left: 112%;
+    }
+}

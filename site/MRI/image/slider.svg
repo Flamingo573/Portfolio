@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" >
+  <defs>
+    <style>
+      .cls-1{fill:none;stroke:#b7b7b7;}.cls-1,.cls-2{stroke-miterlimit:10;}.cls-2{fill:#fff;stroke:#bbb;}.cls-3{fill:#be2126; transition: all 300ms;}
+    </style>
+  </defs>
+  <title>Slider</title>
+      <line id="line" class="cls-1" x1="16.5" y1="32.97" x2="16.5" y2="228.07"/>
+      <circle id="circle-3" class="cls-2" cx="16.5" cy="243.75" r="16"/>
+      <circle id="circle-2" class="cls-2" cx="16.5" cy="130.12" r="16"/>
+      <circle id="circle-1" class="cls-2" cx="16.5" cy="16.5" r="16"/>
+      <circle id="redCircle" class="cls-3" cx="16.5" cy="16.5" r="10"/>
+</svg>
